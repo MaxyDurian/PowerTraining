@@ -1,0 +1,80 @@
+* {
+    margin:0 ;
+    box-sizing: border-box;
+}
+body {
+    background:rgb(29, 28, 28);
+}
+h1,h2,h3 {
+    color:rgb(141, 19, 19);
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+nav,a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    padding:13px;
+    background:black;
+    color:rgb(110, 34, 34);
+    font-size:17px;
+}
+a:hover {
+    color:rgb(255, 0, 0);
+    transition:0.7s ease;
+    font-size:21px;
+    
+}
+p {
+    font-size:1.5em;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:55px;
+    margin-bottom:30px;
+    
+}
+.btn {
+    padding:15px;
+    background-color:rgb(63, 20, 20);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+button {
+    padding:15px;
+    width:200px;
+    background-color:rgb(219, 32, 32);
+    border-radius: 23px;
+    border-style:none;
+    font-size:18px;
+    cursor:pointer;
+}
+h3 {
+    font-size:35px;
+    padding:20px;
+
+}
+.fondo {
+    background-image:url(../images/powertraining.jpg);
+    height:280px;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.social {
+    margin-bottom:20px;
+
+}
+.social a{
+    color:white;
+    font-size:30px;
+    margin:15px;
+}
+
