@@ -27,6 +27,15 @@
     border-radius:17px;
     overflow:hidden;
 }
-.card img{
-    object-fit: cover;
+.grid-entrenadores{
+    display:grid;
+    width:90%;
+    gap:10px;
+    box-sizing:border-box;
+    align-content:center;
+    grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
+}
+.planes{
+    display:grid;
+    align-content:center;
 }
