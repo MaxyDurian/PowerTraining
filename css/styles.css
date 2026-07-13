@@ -135,3 +135,32 @@ img{
     
     
 }
+input[type="text"]{
+    padding:10px;
+    background:rgb(216, 223, 219);
+    border:3px solid;
+    border-radius:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="email"]{
+    padding:10px;
+    background:rgb(216, 223, 219);
+    border:3px solid;
+    border-radius:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="tel"]{
+    padding:10px;
+    background:rgb(216, 223, 219);
+    border:3px solid;
+    border-radius:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:200px;
+}
+textarea{
+    padding:10px;
+    background:rgb(216, 223, 219);
+    border:3px solid rgb(90, 90, 70);
+    border-radius:2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
